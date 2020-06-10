@@ -1,0 +1,6 @@
+nltk==3.5
+spacy==2.1.0
+neuralcoref.egg==info
+flask_restx==0.2.0
+Flask==1.1.2
+neuralcoref==4.0
