@@ -195,16 +195,6 @@ class Metrics(Resource):
                 else:
                     conditionalFrequencies[ngram][words[j + windowSize]] = 1
 
-        #for j in range(0, len(words) - windowSize):
-            # ngram = ''
-            #first = True
-            #for t in range(j, j + windowSize):
-                #   word = words[t]
-                #if first:
-                    #    ngram = word
-                    #first = False
-                    #else:
-        # ngram = ngram + "_" + word
         return frequenciesNgram, conditionalFrequencies
 
     def computeHillbergLawConditional(self, windowsy, windowsxy, list=False):
